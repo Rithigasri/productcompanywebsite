@@ -56,7 +56,7 @@ Publish the website in the given URL.
 ![Output](./images/cssvalidator.png)
 
 ## HTML VALIDATOR:
-![Output](./images/Htmlvalidator.png)
+![Output](./images/htmlvalidator.png)
 
 
 ## Result:
