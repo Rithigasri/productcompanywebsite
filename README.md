@@ -55,7 +55,8 @@ Publish the website in the given URL.
             <div class="menu">
                 <div class="menuitem"><a href="homepage.html">Home</a> </div>
                 <div class="menuitem"><a href="product1.html">Products</a> </div>
-                <div class="menuitem"><a href="people.html">People</a> </div>                <div class="menuitem"><a href="contactus.html">Contact Us</a> </div>
+                <div class="menuitem"><a href="people.html">People</a> </div>                
+                <div class="menuitem"><a href="contactus.html">Contact Us</a> </div>
                     
             </div> 
             
