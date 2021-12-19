@@ -1,0 +1,345 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: lavenderblush;
+    color:black;
+    
+}
+.container{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    box-shadow: 15px 15px 8px gray;
+    background-color: lightcyan;
+}
+
+.topimg {
+    width:100%;
+    height:110px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmVM7BG0nyXw49n34MkyOGo1NGvDvC4fw8xQ&usqp=CAU");
+    background-size:cover;
+    background-color: lavender;
+}
+
+.heading{
+    display:block;
+    position:absolute;
+    top:20px;
+    left:630px;
+    text-align: center;
+    font-size: 60px;
+    font-weight:bolder;
+    color:black;
+}
+
+.quote{
+    display:block;
+    position:absolute;
+    left:790px;
+    top:80px;
+    font-size:30px;
+    color:black;
+    font-family: monospace;
+}
+
+.bgabout{
+   
+    background-image: url("https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg");
+    width:100%;
+    height:550px;
+    background-size:cover;
+
+}
+.head{
+    font-size:40px;
+    color:black;
+    display:block;
+    position:absolute;
+    top:250px;
+    left:340px;
+    font-family:serif;
+}
+
+.aboutus{
+    font-size: 30px;
+    color:black;
+    display: inline-block;
+    width:500px;
+    position: absolute;
+    top:310px;
+    left:340px;
+    right:350px;
+    text-align:justify;
+}
+.aboutusimg{
+    position: absolute;
+    top:300px;
+    left:900px;
+}
+.footer{
+    display:block;
+    width:100%;
+    height: 40px;
+    background-color:lightcoral;
+    color:black;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px 0px 0px 0px;
+
+    
+}
+.productcontent{
+    margin-left: 10px;
+    
+}
+
+.productimg1{
+    position:fixed;
+    left:300px;
+    top:150px;
+}
+.productname1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: fixed;
+    left:300px;
+    top:350px;
+    font-weight: bold;
+}
+.productprice1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: fixed;
+    left:330px;
+    top:380px;
+    font-weight: bold;
+    
+
+}
+.productimg2{
+    position:fixed;
+    left:690px;
+    top:160px;
+}
+.productname2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: fixed;
+    left:690px;
+    top:350px;
+    font-weight: bold;
+}
+.productprice2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: fixed;
+    left:715px;
+    top:380px;
+    font-weight: bold;
+}
+
+.productimg3{
+    position:fixed;
+    left:1050px;
+    top:170px;
+}
+.productname3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: fixed;
+    left:1050px;
+    top:350px;
+    font-weight: bold;
+}
+.productprice3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: fixed;
+    left:1070px;
+    top:380px;
+    font-weight: bold;
+}
+.productimg4{
+    position: fixed;
+    left:300px;
+    top:450px;
+}
+.productname4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: fixed;
+    left:300px;
+    top:630px;
+    font-weight: bold;
+}
+.productprice4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: fixed;
+    left:330px;
+    top:660px;
+    font-weight: bold;
+}
+.productimg5{
+    position:fixed;
+    left:690px;
+    top:450px;
+}
+.productname5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: fixed;
+    left:660px;
+    top:630px;
+    font-weight: bold;
+}
+.productprice5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: fixed;
+    left:700px;
+    top:660px;
+    font-weight: bold;
+}
+.productimg6{
+    position:fixed;
+    left:1050px;
+    top:440px;
+}
+.productname6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: fixed;
+    left:1050px;
+    top:630px;
+    font-weight: bold;
+}
+.productprice6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: fixed;
+    left:1070px;
+    top:660px;
+    font-weight: bold;
+}
+.product2img1{
+    position: fixed;
+    left:300px;
+    top:180px;
+}
+
+#Page1{
+    position:fixed;
+    top:690px;
+    left:740px;
+}
+
+#Page2{
+    position:fixed;
+    top:690px;
+    left:740px;
+}
+
+.people{
+    display:inline;
+}
+.img{
+    display:inline-block;
+    width:320px;
+    margin-left: 30px;
+}
+.img2{
+    display: inline-block;
+    width: 320px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.name1{
+    display: inline-block;
+    width:320px;
+    margin-top:10px;
+    margin-left: 30px;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+}
+.name2{
+    display: inline-block;
+    width:320px;
+    margin-top:10px;
+    margin-left: 30px;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+}
+.title1{
+    display: inline-block;
+    width:320px;
+    margin-top:10px;
+    margin-left: 30px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+.title2{
+    display: inline-block;
+    width:300px;
+    margin-top:10px;
+    margin-left: 50px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+.contact{
+    font-family:Arial;
+    font-size: 60px;
+    color:sienna
+}
+.address{
+    font-family: 'Times New Roman', Times, serif;
+    color:darkgreen;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.contactaddress{
+    font-family: 'Times New Roman', Times, serif;
+    color:darkblue;
+    font-size: 30px;
+    font-size:30px;
+    margin-top: 20px;
+    position:absolute;
+    top:555px;
+    left:340px;
+    
+    
+}
+
+.menu {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: larger;
+    background-color:hotpink;
+    text-align: center;
+    padding-top: 15px;
+    margin:0px 0px 0px 0px;
+    border-width: 1px;
+}
+.menuitem {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+}
+.pptimg{
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+
