@@ -691,13 +691,7 @@ body{
     margin-right: 10px;
     color: black;
 }
-.pptimg{
-    position:absolute;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-left: 30px;
-}
+
 ```
 
 
